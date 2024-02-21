@@ -1,4 +1,4 @@
-#include <iostream> // 헤더파일
+/*#include <iostream> // 헤더파일
 
 int global = 100;
 
@@ -6,7 +6,7 @@ void func() {
 	int a = 100;
 }
 
-int func()
+int main()
 {
 	int val;	// 메모리공간(RAM)에 int 크기로 저장공간을 할당받고 val이름으로 사용한다.
 	std::cout << "숫자입력 : ";
