@@ -15,8 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cproject6.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="clang6_test.cpp">
+      <Filter>리소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
