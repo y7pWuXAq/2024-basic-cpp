@@ -1,10 +1,13 @@
 #include <iostream>
 
-using namespace std; // std 네임스페이스의 모든 것을 사용
+using namespace std; // std 네임스페이스의 모든 것을 사용한다.
 
 /*
-반복제어문:while
+
+    반복제어문:while
+
 */
+
 int main() {
 
     int inKey;
