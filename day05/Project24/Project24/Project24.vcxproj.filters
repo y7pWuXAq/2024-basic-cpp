@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test_00_정리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test_10_SelfRef.cpp">
+    <ClCompile Include="test_03_copyCon02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
