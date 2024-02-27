@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="test_00_정리.cpp" />
-    <ClCompile Include="test_04_new.cpp" />
+    <ClCompile Include="test_09_UesfulThisPtr.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
