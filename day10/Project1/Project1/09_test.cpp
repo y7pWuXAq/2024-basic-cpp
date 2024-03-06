@@ -40,7 +40,7 @@ public:
 
 int main()
 {
-	int 
+	int kor
 
 
 	return 0;
