@@ -1,6 +1,6 @@
-/*
+ï»¿/*
 	char ary[] = {'a', 'b', 'c', 'd', 'e', 'f'}
-	Á¶°Ç : while ¹®°ú if ¹®¸¸À¸·Î ¹è¿­ ¼ø¼­¸¦ ¹Ù²Ù¾î ÀúÀå Ãâ·ÂÇÏ½Ã¿À
+	ì¡°ê±´ : while ë¬¸ê³¼ if ë¬¸ë§Œìœ¼ë¡œ ë°°ì—´ ìˆœì„œë¥¼ ë°”ê¾¸ì–´ ì €ìž¥ ì¶œë ¥í•˜ì‹œì˜¤
 */
 
 #include <iostream>
@@ -8,24 +8,24 @@ using namespace std;
 
 int main() {
     char ary[] = { 'a', 'b', 'c', 'd', 'e', 'f' };
-    int length = sizeof(ary) / sizeof(ary[0]);// ¹è¿­ÀÇ ÀüÃ¼ Å©±â¸¦ ÀÚ·áÇü Å©±â·Î ³ª´©¸é => ¹è¿­ÀÇ ±æÀÌ
-    cout << "¹Ù²Ù±â Àü ¹è¿­: ";
+    int length = sizeof(ary) / sizeof(ary[0]);// ë°°ì—´ì˜ ì „ì²´ í¬ê¸°ë¥¼ ìžë£Œí˜• í¬ê¸°ë¡œ ë‚˜ëˆ„ë©´ => ë°°ì—´ì˜ ê¸¸ì´
+    cout << "ë°”ê¾¸ê¸° ì „ ë°°ì—´: ";
     for (int i = 0; i < length; i++) {
-        cout << ary[i]; // ¹è¿­ ¿ä¼Ò¸¦ ÇÏ³ª¾¿ Ãâ·Â
+        cout << ary[i]; // ë°°ì—´ ìš”ì†Œë¥¼ í•˜ë‚˜ì”© ì¶œë ¥
     }
     cout << endl;
     int i = 0;
-    while (i < length / 2) {      // ¹è¿­À» Àý¹ÝÀ¸·Î ³ª´©¾î¼­ ¾ÕÂÊ ¿ä¼Ò°ªÀ» µÚÂÊ ¿ä¼Ò°ª°ú ¹Ù²ãÁ»
-        char temp = ary[i];         // ¹Ù²Ù±â Àü ¿ä¼Ò°ª temp¿¡ ÀúÀå
-        ary[i] = ary[length - i - 1];   // ¾ÕÂÊ 0,1,2 ÀÎµ¦½ºÀÇ ¿ä¼Ò°ª 5,4,3 ÀÎµ¦½º ¿ä¼Ò°ªÀ¸·Î º¯È¯
-        ary[length - i - 1] = temp;        // ÀÎµ¦½º 5,4,3ÀÇ ¿ä¼Ò°ª¿¡ º¯È¯ Àü 0,1,2 ¿ä¼Ò°ªÀ¸·Î º¯È¯
+    while (i < length / 2) {      // ë°°ì—´ì„ ì ˆë°˜ìœ¼ë¡œ ë‚˜ëˆ„ì–´ì„œ ì•žìª½ ìš”ì†Œê°’ì„ ë’¤ìª½ ìš”ì†Œê°’ê³¼ ë°”ê¿”ì¢€
+        char temp = ary[i];         // ë°”ê¾¸ê¸° ì „ ìš”ì†Œê°’ tempì— ì €ìž¥
+        ary[i] = ary[length - i - 1];   // ì•žìª½ 0,1,2 ì¸ë±ìŠ¤ì˜ ìš”ì†Œê°’ 5,4,3 ì¸ë±ìŠ¤ ìš”ì†Œê°’ìœ¼ë¡œ ë³€í™˜
+        ary[length - i - 1] = temp;        // ì¸ë±ìŠ¤ 5,4,3ì˜ ìš”ì†Œê°’ì— ë³€í™˜ ì „ 0,1,2 ìš”ì†Œê°’ìœ¼ë¡œ ë³€í™˜
         i++;
     }
 
 
-    cout << "¹Ù²Û ÈÄ ¹è¿­: ";
+    cout << "ë°”ê¾¼ í›„ ë°°ì—´: ";
     for (int i = 0; i < length; i++) {
-        cout << ary[i]; // ¹è¿­ ¿ä¼Ò¸¦ ÇÏ³ª¾¿ Ãâ·Â
+        cout << ary[i]; // ë°°ì—´ ìš”ì†Œë¥¼ í•˜ë‚˜ì”© ì¶œë ¥
     }
     cout << endl;
     return 0;
